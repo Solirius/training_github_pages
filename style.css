@@ -29,32 +29,30 @@
 }
 
 body {
-  background-color:aliceblue;
-  /* TODO: change the font - be mindful of how fonts are imported in the webpage */
-  font-family: 'Noto Sans', sans-serif;
-  /* TODO: change the background colour */
-  color: #827397;
+  background-color: #f5f5f5; /* Light gray background for a clean look */
+  color: #333333; /* Dark gray text for readability */
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  line-height:normal;
+  line-height: 1.5;
 }
+
 h1, h2, h3 {
-  /* TODO: change the header font colour */
-  color: #4D4C7D;
+  color: #2c3e50; /* Deep blue for headers to create a distinct hierarchy */
 }
 
 h1 {
   font-size: 24px;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 h2 {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 h3 {
   font-size: 18px;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 p {
@@ -62,13 +60,12 @@ p {
 }
 
 a {
-  /* TODO: change the link colours */
+  color: #2980b9; /* Blue links for clear visibility */
   text-decoration: none;
-  color: #363062;
 }
 
 a:hover {
-  background-color: #827397;
+  color: #1abc9c; /* Teal hover effect for links */
 }
 
 .img-circle {
@@ -76,19 +73,18 @@ a:hover {
 }
 
 .card-white {
-  /* TODO: change the card background colour */
-  background-color: white;
+  background-color: #ffffff; /* White card background for contrast */
+  color: #333333; /* Matching text color with body for consistency */
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
 }
 
 .btn-blue {
-  /* TODO: change the button colour */
-  background-color:#4D4C7D;
-  color: #E9D5CA;
+  background-color: #3498db; /* Vibrant blue button */
+  color: #ffffff; /* White text on buttons */
   padding: 15px 20px;
   border-radius: 4px;
 }
