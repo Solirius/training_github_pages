@@ -29,11 +29,11 @@
 }
 
 body {
-  background-color:rgb(0, 0, 0);
+  background-color:rgb(184, 174, 174);
   /* TODO: change the font - be mindful of how fonts are imported in the webpage */
   font-family: 'Noto Sans', sans-serif;
   /* TODO: change the background colour */
-  color: #000000;
+  color: #9d9191;
   font-size: 16px;
   line-height:normal;
 }
@@ -64,7 +64,7 @@ p {
 a {
   /* TODO: change the link colours */
   text-decoration: none;
-  color: #666AAA;
+  color: #3a43cc;
 }
 
 a:hover {
@@ -77,7 +77,7 @@ a:hover {
 
 .card-white {
   /* TODO: change the card background colour */
-  background-color: blue;
+  background-color: rgb(48, 48, 192);
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
   border-radius: 4px;
